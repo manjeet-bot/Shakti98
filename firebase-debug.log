@@ -1,0 +1,225 @@
+[debug] [2026-03-29T06:43:11.841Z] ----------------------------------------------------------------------
+[debug] [2026-03-29T06:43:11.843Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2026-03-29T06:43:11.843Z] CLI Version:   15.11.0
+[debug] [2026-03-29T06:43:11.843Z] Platform:      win32
+[debug] [2026-03-29T06:43:11.843Z] Node Version:  v24.13.1
+[debug] [2026-03-29T06:43:11.844Z] Time:          Sun Mar 29 2026 12:13:11 GMT+0530 (India Standard Time)
+[debug] [2026-03-29T06:43:11.844Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-29T06:43:11.846Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[debug] [2026-03-29T06:43:20.313Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-03-29T06:43:20.313Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[info] 
+[info] i  To change your preferences at any time, run `firebase logout` and `firebase login` again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=93546883&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2026-03-29T06:44:48.934Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2026-03-29T06:44:48.934Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2026-03-29T06:44:49.087Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2026-03-29T06:44:49.087Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2026-03-29T06:45:15.151Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2026-03-29T06:45:15.151Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2026-03-29T06:45:20.484Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2026-03-29T06:45:20.485Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] +  Success! Logged in as manjeetjaat950@gmail.com 
+[debug] [2026-03-29T06:45:20.503Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2026-03-29T06:45:20.503Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2026-03-29T06:45:29.900Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2026-03-29T06:45:29.900Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2026-03-29T06:45:30.510Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\manje\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-03-29T06:45:53.224Z] ----------------------------------------------------------------------
+[debug] [2026-03-29T06:45:53.226Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use studio-9839508681-122cf
+[debug] [2026-03-29T06:45:53.226Z] CLI Version:   15.11.0
+[debug] [2026-03-29T06:45:53.226Z] Platform:      win32
+[debug] [2026-03-29T06:45:53.226Z] Node Version:  v24.13.1
+[debug] [2026-03-29T06:45:53.226Z] Time:          Sun Mar 29 2026 12:15:53 GMT+0530 (India Standard Time)
+[debug] [2026-03-29T06:45:53.226Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-29T06:45:53.400Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-29T06:45:53.401Z] > authorizing via signed-in user (manjeetjaat950@gmail.com)
+[debug] [2026-03-29T06:45:53.402Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:45:53.402Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:45:53.403Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2026-03-29T06:45:53.403Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudresourcemanager.googleapis.com  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:46:05.285Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudresourcemanager.googleapis.com 200
+[debug] [2026-03-29T06:46:05.285Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2026-03-29T06:46:05.287Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:46:05.288Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:46:05.288Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf [none]
+[debug] [2026-03-29T06:46:23.216Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf 200
+[debug] [2026-03-29T06:46:23.217Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf {"projectNumber":"736669163890","projectId":"studio-9839508681-122cf","lifecycleState":"ACTIVE","name":"army-connect-pro","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-11-17T10:17:24.262155Z"}
+[info] Now using project studio-9839508681-122cf
+[debug] [2026-03-29T06:46:33.243Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\manje\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-03-29T06:46:39.737Z] ----------------------------------------------------------------------
+[debug] [2026-03-29T06:46:39.739Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions --project studio-9839508681-122cf
+[debug] [2026-03-29T06:46:39.739Z] CLI Version:   15.11.0
+[debug] [2026-03-29T06:46:39.739Z] Platform:      win32
+[debug] [2026-03-29T06:46:39.739Z] Node Version:  v24.13.1
+[debug] [2026-03-29T06:46:39.740Z] Time:          Sun Mar 29 2026 12:16:39 GMT+0530 (India Standard Time)
+[debug] [2026-03-29T06:46:39.740Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-29T06:46:40.749Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-29T06:46:40.750Z] > authorizing via signed-in user (manjeetjaat950@gmail.com)
+[debug] [2026-03-29T06:46:40.750Z] [iam] checking project studio-9839508681-122cf for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2026-03-29T06:46:40.751Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:46:40.751Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:46:40.752Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions [none]
+[debug] [2026-03-29T06:46:40.752Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:46:40.752Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2026-03-29T06:46:52.929Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions 200
+[debug] [2026-03-29T06:46:52.930Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2026-03-29T06:46:52.930Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:46:52.930Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:46:52.930Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2026-03-29T06:46:52.930Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2026-03-29T06:47:04.333Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions 404
+[debug] [2026-03-29T06:47:04.333Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions {"error":{"code":404,"message":"Unknown service account","status":"NOT_FOUND"}}
+[debug] [2026-03-29T06:47:04.333Z] [functions] service account IAM check errored, deploy may fail: Request to https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions had HTTP Error: 404, Unknown service account {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Unknown service account","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions had HTTP Error: 404, Unknown service account","status":404}
+[info] 
+[info] === Deploying to 'studio-9839508681-122cf'...
+[info] 
+[info] i  deploying functions 
+[debug] [2026-03-29T06:47:04.337Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:04.337Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:04.337Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf [none]
+[debug] [2026-03-29T06:47:16.988Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf 200
+[debug] [2026-03-29T06:47:16.988Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf {"projectNumber":"736669163890","projectId":"studio-9839508681-122cf","lifecycleState":"ACTIVE","name":"army-connect-pro","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-11-17T10:17:24.262155Z"}
+[info] i  functions: preparing codebase default for deployment 
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[debug] [2026-03-29T06:47:16.990Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:16.990Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:16.990Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:16.990Z] Checked if tokens are valid: true, expires at: 1774770319485
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[debug] [2026-03-29T06:47:16.991Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:16.991Z] Checked if tokens are valid: true, expires at: 1774770319485
+[info] i  artifactregistry: ensuring required API artifactregistry.googleapis.com is enabled... 
+[debug] [2026-03-29T06:47:16.991Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:16.991Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:16.991Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-03-29T06:47:16.991Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudfunctions.googleapis.com  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:47:16.992Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/runtimeconfig.googleapis.com [none]
+[debug] [2026-03-29T06:47:16.992Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/runtimeconfig.googleapis.com  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:47:16.993Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com [none]
+[debug] [2026-03-29T06:47:16.993Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:47:16.994Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com [none]
+[debug] [2026-03-29T06:47:16.994Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:47:27.217Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/runtimeconfig.googleapis.com 200
+[debug] [2026-03-29T06:47:27.217Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2026-03-29T06:47:27.247Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudfunctions.googleapis.com 200
+[debug] [2026-03-29T06:47:27.247Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudfunctions.googleapis.com [omitted]
+[warn] !  functions: missing required API cloudfunctions.googleapis.com. Enabling now... 
+[debug] [2026-03-29T06:47:27.248Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:27.248Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:27.248Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2026-03-29T06:47:27.248Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudfunctions.googleapis.com:enable  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:47:27.269Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com 200
+[debug] [2026-03-29T06:47:27.269Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com [omitted]
+[warn] !  functions: missing required API cloudbuild.googleapis.com. Enabling now... 
+[debug] [2026-03-29T06:47:27.270Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:27.270Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:27.270Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com:enable [none]
+[debug] [2026-03-29T06:47:27.270Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com:enable  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:47:30.217Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com:enable 400
+[debug] [2026-03-29T06:47:30.217Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com:enable [omitted]
+[debug] [2026-03-29T06:47:31.203Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2026-03-29T06:47:31.203Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2026-03-29T06:47:34.111Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com 200
+[debug] [2026-03-29T06:47:34.112Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com [omitted]
+[warn] !  artifactregistry: missing required API artifactregistry.googleapis.com. Enabling now... 
+[debug] [2026-03-29T06:47:34.113Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:34.113Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:34.113Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com:enable [none]
+[debug] [2026-03-29T06:47:34.113Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com:enable  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:47:35.227Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\manje\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-03-29T06:47:48.396Z] ----------------------------------------------------------------------
+[debug] [2026-03-29T06:47:48.398Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions --project studio-9839508681-122cf
+[debug] [2026-03-29T06:47:48.398Z] CLI Version:   15.11.0
+[debug] [2026-03-29T06:47:48.398Z] Platform:      win32
+[debug] [2026-03-29T06:47:48.398Z] Node Version:  v24.13.1
+[debug] [2026-03-29T06:47:48.399Z] Time:          Sun Mar 29 2026 12:17:48 GMT+0530 (India Standard Time)
+[debug] [2026-03-29T06:47:48.399Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-29T06:47:49.388Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-29T06:47:49.389Z] > authorizing via signed-in user (manjeetjaat950@gmail.com)
+[debug] [2026-03-29T06:47:49.389Z] [iam] checking project studio-9839508681-122cf for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2026-03-29T06:47:49.390Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:49.390Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:47:49.391Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions [none]
+[debug] [2026-03-29T06:47:49.391Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:47:49.391Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2026-03-29T06:48:04.568Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions 200
+[debug] [2026-03-29T06:48:04.568Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2026-03-29T06:48:04.569Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:04.569Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:04.569Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2026-03-29T06:48:04.569Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2026-03-29T06:48:14.754Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2026-03-29T06:48:14.754Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/studio-9839508681-122cf/serviceAccounts/studio-9839508681-122cf@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'studio-9839508681-122cf'...
+[info] 
+[info] i  deploying functions 
+[debug] [2026-03-29T06:48:14.757Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:14.757Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:14.757Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf [none]
+[debug] [2026-03-29T06:48:27.333Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf 200
+[debug] [2026-03-29T06:48:27.333Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-9839508681-122cf {"projectNumber":"736669163890","projectId":"studio-9839508681-122cf","lifecycleState":"ACTIVE","name":"army-connect-pro","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-11-17T10:17:24.262155Z"}
+[info] i  functions: preparing codebase default for deployment 
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[debug] [2026-03-29T06:48:27.336Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:27.336Z] Checked if tokens are valid: true, expires at: 1774770319485
+[info] i  artifactregistry: ensuring required API artifactregistry.googleapis.com is enabled... 
+[debug] [2026-03-29T06:48:27.336Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:27.336Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:27.336Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com [none]
+[debug] [2026-03-29T06:48:27.336Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:48:27.337Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com [none]
+[debug] [2026-03-29T06:48:27.337Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:48:45.279Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com 200
+[debug] [2026-03-29T06:48:45.280Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com [omitted]
+[warn] !  functions: missing required API cloudbuild.googleapis.com. Enabling now... 
+[debug] [2026-03-29T06:48:45.280Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:45.280Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:45.281Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com:enable [none]
+[debug] [2026-03-29T06:48:45.281Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com:enable  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:48:45.467Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com 200
+[debug] [2026-03-29T06:48:45.468Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com [omitted]
+[warn] !  artifactregistry: missing required API artifactregistry.googleapis.com. Enabling now... 
+[debug] [2026-03-29T06:48:45.468Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:45.468Z] Checked if tokens are valid: true, expires at: 1774770319485
+[debug] [2026-03-29T06:48:45.468Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com:enable [none]
+[debug] [2026-03-29T06:48:45.468Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com:enable  x-goog-user-project=studio-9839508681-122cf
+[debug] [2026-03-29T06:48:48.691Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com:enable 400
+[debug] [2026-03-29T06:48:48.691Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/cloudbuild.googleapis.com:enable [omitted]
+[debug] [2026-03-29T06:48:48.852Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com:enable 400
+[debug] [2026-03-29T06:48:48.852Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/studio-9839508681-122cf/services/artifactregistry.googleapis.com:enable [omitted]
+[debug] [2026-03-29T06:48:53.696Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\manje\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:308:49)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+[error] 
+[error] Error: An unexpected error has occurred.

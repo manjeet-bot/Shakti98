@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "736669163890",
+    "project_id": "studio-9839508681-122cf",
+    "storage_bucket": "studio-9839508681-122cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736669163890:android:d83e9c813ed644f613fdeb",
+        "android_client_info": {
+          "package_name": "com.example.army_connect_pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736669163890-14ilpdti5237hecqilcukc5fpancaup4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJcZ2AoUWd-2VsbHdMytm47ORujzO5OzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736669163890-14ilpdti5237hecqilcukc5fpancaup4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
